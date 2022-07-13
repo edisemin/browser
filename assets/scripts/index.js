@@ -1,1 +1,5 @@
-document.getElementById("main-title").textContent = "Hi, everyone!"
+document.querySelector("#bitcoin-button").addEventListener("click", (e) => {
+    e.target.textContent = "Hi!";
+})
+
+
